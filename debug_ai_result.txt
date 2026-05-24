@@ -1,0 +1,286 @@
+{
+    "title": "Kiểm tra Trí tuệ nhân tạo",
+    "description": "Bộ câu hỏi kiểm tra độ hiểu biết về môn học Trí tuệ nhân tạo dựa trên tài liệu bài giảng.",
+    "questions": [
+        {
+            "question_text": "Theo tài liệu bài giảng, mục đích chính của trí tuệ nhân tạo (AI) là gì?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Tài liệu ghi rõ mục đích của trí tuệ nhân tạo là xây dựng các thực thể thông minh.",
+            "options": [
+                {
+                    "option_text": "Xây dựng các thực thể thông minh.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Thay thế con người trong mọi công việc.",
+                    "is_correct": false,
+                    "distractor_logic": "Người học dễ nhầm lẫn giữa mục tiêu của AI với viễn cảnh khoa học viễn tưởng."
+                },
+                {
+                    "option_text": "Tạo ra các cỗ máy có cảm xúc giống con người.",
+                    "is_correct": false,
+                    "distractor_logic": "AI hướng tới trí tuệ và hành vi, cảm xúc là một lĩnh vực khác chưa được nhấn mạnh là mục tiêu cốt lõi trong bài."
+                },
+                {
+                    "option_text": "Lập trình các hệ thống tự động hóa đơn giản.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây chỉ là một phần nhỏ của các ứng dụng AI chứ không phải mục đích nghiên cứu tổng quát."
+                }
+            ]
+        },
+        {
+            "question_text": "Phép thử Turing (Turing test) được xây dựng với mục đích gì?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Phép thử Turing được xây dựng để thiết lập một thủ tục định nghĩa trí tuệ, trong đó một hệ thống được coi là thông minh nếu hành động tương tự con người đến mức người kiểm tra không thể phân biệt được.",
+            "options": [
+                {
+                    "option_text": "Định nghĩa và xác định trí tuệ của một hệ thống.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Kiểm tra tốc độ xử lý dữ liệu của máy tính.",
+                    "is_correct": false,
+                    "distractor_logic": "Tốc độ xử lý không phải là tiêu chí đánh giá trí tuệ theo phép thử Turing."
+                },
+                {
+                    "option_text": "Đánh giá khả năng học máy của hệ thống.",
+                    "is_correct": false,
+                    "distractor_logic": "Học máy chỉ là một trong những khả năng cần thiết để vượt qua phép thử, không phải mục đích của phép thử."
+                },
+                {
+                    "option_text": "Kiểm tra sự tiếp xúc vật lý giữa người và máy.",
+                    "is_correct": false,
+                    "distractor_logic": "Tài liệu lưu ý phép thử không đòi hỏi tiếp xúc vật lý."
+                }
+            ]
+        },
+        {
+            "question_text": "Theo tài liệu, tại sao việc xây dựng hệ thống 'hành động hợp lý' được coi là cách tiếp cận tổng quát nhất?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Hệ thống hành động hợp lý có thể bao gồm suy diễn hoặc không, có thể dựa trên tư duy giống người hoặc không, và bao hàm cả các kỹ thuật vượt qua phép thử Turing.",
+            "options": [
+                {
+                    "option_text": "Nó bao gồm cả các cách tiếp cận khác như suy diễn hoặc phản xạ.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Nó chỉ tập trung vào việc mô phỏng quá trình tư duy con người.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là đặc điểm của nhóm 'suy nghĩ như người', không phải 'hành động hợp lý'."
+                },
+                {
+                    "option_text": "Nó là cách tiếp cận đầu tiên trong lịch sử trí tuệ nhân tạo.",
+                    "is_correct": false,
+                    "distractor_logic": "Cách tiếp cận hành động hợp lý là một trong bốn nhóm, không nhất thiết là đầu tiên."
+                },
+                {
+                    "option_text": "Nó loại bỏ hoàn toàn các yếu tố chủ quan của con người.",
+                    "is_correct": false,
+                    "distractor_logic": "Dù hành động hợp lý có thể khác con người, nhưng nó không phải là lý do chính để nó được gọi là tổng quát."
+                }
+            ]
+        },
+        {
+            "question_text": "Trong tìm kiếm mù (blind search), yếu tố nào sau đây là đặc điểm chính?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Tìm kiếm mù không có thông tin hướng dẫn về đối tượng, chỉ xem xét hệ thống tất cả các đối tượng.",
+            "options": [
+                {
+                    "option_text": "Không có thông tin hướng dẫn sự tìm kiếm.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Sử dụng hàm đánh giá để chọn đường đi.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là đặc điểm của tìm kiếm heuristic."
+                },
+                {
+                    "option_text": "Luôn tìm thấy nghiệm tối ưu nhất.",
+                    "is_correct": false,
+                    "distractor_logic": "Tìm kiếm mù không đảm bảo tối ưu (ví dụ DFS)."
+                },
+                {
+                    "option_text": "Chỉ áp dụng cho không gian trạng thái hữu hạn.",
+                    "is_correct": false,
+                    "distractor_logic": "Có thể áp dụng cho các không gian khác nhưng kém hiệu quả."
+                }
+            ]
+        },
+        {
+            "question_text": "Nhận xét nào sau đây đúng về chiến lược tìm kiếm theo chiều sâu (DFS)?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "DFS chọn trạng thái được sinh ra sau cùng để phát triển, không phải hàng đợi (BFS), và không đảm bảo tìm ra nghiệm trong cây vô hạn nếu sai nhánh.",
+            "options": [
+                {
+                    "option_text": "Nó không đảm bảo tìm ra nghiệm trong không gian trạng thái vô hạn.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Nó luôn luôn tìm ra đường đi ngắn nhất.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là đặc điểm của BFS, không phải DFS."
+                },
+                {
+                    "option_text": "Nó sử dụng danh sách L như một hàng đợi.",
+                    "is_correct": false,
+                    "distractor_logic": "BFS dùng hàng đợi, DFS dùng ngăn xếp."
+                },
+                {
+                    "option_text": "Độ phức tạp không gian luôn thấp hơn BFS trong mọi trường hợp.",
+                    "is_correct": false,
+                    "distractor_logic": "Tuy thường thấp hơn, nhưng không thể khẳng định 'luôn' trong mọi cấu trúc dữ liệu."
+                }
+            ]
+        },
+        {
+            "question_text": "Chiến lược tìm kiếm sâu lặp (Iterative Deepening Search) kết hợp ưu điểm của BFS và DFS như thế nào?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Tìm kiếm sâu lặp kết hợp ưu điểm của BFS (tìm nghiệm tối ưu) và DFS (không gian bộ nhớ thấp).",
+            "options": [
+                {
+                    "option_text": "Ưu điểm tìm nghiệm của BFS và ưu điểm không gian nhớ của DFS.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Tốc độ tìm kiếm của BFS và khả năng xử lý đồ thị có chu trình của DFS.",
+                    "is_correct": false,
+                    "distractor_logic": "Khả năng xử lý chu trình phụ thuộc vào cơ chế phát hiện trạng thái lặp, không phải ưu điểm chính."
+                },
+                {
+                    "option_text": "Độ chính xác của DFS và khả năng xử lý dữ liệu lớn của BFS.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là các mô tả không chính xác về bản chất thuật toán."
+                },
+                {
+                    "option_text": "Không lãng phí thời gian như BFS và tìm được đường đi ngắn nhất như DFS.",
+                    "is_correct": false,
+                    "distractor_logic": "Đảo ngược đặc điểm của BFS và DFS."
+                }
+            ]
+        },
+        {
+            "question_text": "Tại sao thuật toán A* được coi là tối ưu trong tìm kiếm đường đi ngắn nhất?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "A* sử dụng hàm f(n) = g(n) + h(n), với h(n) là hàm heuristic chấp nhận được, giúp tìm ra nghiệm tối ưu.",
+            "options": [
+                {
+                    "option_text": "Sử dụng hàm đánh giá f(n) = g(n) + h(n) với h(n) chấp nhận được.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Vì nó là một dạng đặc biệt của tìm kiếm leo đồi.",
+                    "is_correct": false,
+                    "distractor_logic": "A* là tìm kiếm tốt nhất đầu tiên, không phải leo đồi."
+                },
+                {
+                    "option_text": "Nó không cần hàm đánh giá h(n).",
+                    "is_correct": false,
+                    "distractor_logic": "Hàm h(n) là cốt lõi của A*."
+                },
+                {
+                    "option_text": "Nó chỉ duyệt các đỉnh trên đường đi tối ưu.",
+                    "is_correct": false,
+                    "distractor_logic": "A* có thể duyệt nhiều đỉnh trước khi tìm ra đường đi tối ưu."
+                }
+            ]
+        },
+        {
+            "question_text": "Trong kỹ thuật cắt tỉa Alpha-Beta, tham số Alpha (α) có ý nghĩa gì?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Alpha (α) ghi lại giá trị lớn nhất trong các giá trị của các đỉnh con đã đánh giá của một đỉnh Trắng.",
+            "options": [
+                {
+                    "option_text": "Giá trị lớn nhất trong các giá trị của các đỉnh con đã đánh giá của một đỉnh Trắng.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Giá trị nhỏ nhất trong các giá trị của các đỉnh con đã đánh giá của một đỉnh Đen.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là định nghĩa của Beta (β)."
+                },
+                {
+                    "option_text": "Giới hạn trên của giá trị hàm đánh giá tại mọi nút.",
+                    "is_correct": false,
+                    "distractor_logic": "Alpha chỉ áp dụng cho đỉnh Trắng trên đường đi."
+                },
+                {
+                    "option_text": "Tổng giá trị của tất cả các nút lá đã thăm.",
+                    "is_correct": false,
+                    "distractor_logic": "Không liên quan đến tổng giá trị."
+                }
+            ]
+        },
+        {
+            "question_text": "Trong logic mệnh đề, một công thức được gọi là 'vững chắc' (valid hoặc tautology) khi nào?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Một công thức được gọi là vững chắc nếu nó đúng trong mọi minh họa.",
+            "options": [
+                {
+                    "option_text": "Nó đúng trong mọi minh họa.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Nó sai trong mọi minh họa.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là công thức không thoả được."
+                },
+                {
+                    "option_text": "Nó đúng trong ít nhất một minh họa.",
+                    "is_correct": false,
+                    "distractor_logic": "Đây là công thức thoả được."
+                },
+                {
+                    "option_text": "Nó chỉ đúng khi các biến đều True.",
+                    "is_correct": false,
+                    "distractor_logic": "Đó chỉ là một trường hợp cụ thể."
+                }
+            ]
+        },
+        {
+            "question_text": "Mục đích của 'Phép hợp nhất' (Unification) trong logic vị từ là gì?",
+            "question_type": "multiple_choice",
+            "difficulty": "hard",
+            "explanation": "Phép hợp nhất dùng để tìm phép thế thay cho các biến sao cho hai biểu thức trở nên đồng nhất, phục vụ cho quá trình suy diễn.",
+            "options": [
+                {
+                    "option_text": "Làm cho hai biểu thức đơn trở nên đồng nhất bằng các phép thế.",
+                    "is_correct": true,
+                    "distractor_logic": ""
+                },
+                {
+                    "option_text": "Chứng minh rằng công thức đó không thoả được.",
+                    "is_correct": false,
+                    "distractor_logic": "Hợp nhất là công cụ hỗ trợ chứng minh, không phải bản thân hành động chứng minh."
+                },
+                {
+                    "option_text": "Chuyển đổi công thức logic về dạng chuẩn hội.",
+                    "is_correct": false,
+                    "distractor_logic": "Đó là quá trình chuẩn hóa công thức."
+                },
+                {
+                    "option_text": "Loại bỏ các lượng tử phổ dụng.",
+                    "is_correct": false,
+                    "distractor_logic": "Hợp nhất diễn ra trước hoặc trong quá trình suy diễn, không phải bước loại bỏ lượng tử."
+                }
+            ]
+        }
+    ]
+}

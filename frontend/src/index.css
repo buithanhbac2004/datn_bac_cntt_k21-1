@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Khai báo biến CSS cho các theme. 
+  Tailwind v4 sẽ tự động nhận diện và nội suy ra các class như:
+  bg-background, text-foreground, bg-primary, text-primary-foreground, border-border, v.v.
+*/
+@theme {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-fg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-fg);
+}
+
+/* Định nghĩa màu sắc cho Light Mode (Mặc định) */
+:root {
+  --bg: #f8fafc; /* Nền xám nhạt (slate-50) cho Dashboard dễ nhìn */
+  --fg: #0f172a; /* text-slate-900 */
+  
+  --primary: #0ea5e9; /* sky-500 - Bạn có thể đổi màu chủ đạo ở đây */
+  --primary-fg: #ffffff;
+  
+  --surface: #ffffff; /* Các thẻ Card, Modal nền trắng */
+  --border: #e2e8f0; /* border-slate-200 */
+  
+  --muted: #f1f5f9; /* slate-100 */
+  --muted-fg: #64748b; /* slate-500 */
+}
+
+/* Định nghĩa màu sắc cho Dark Mode */
+.dark {
+  --bg: #0f172a; /* Nền tối (slate-900) */
+  --fg: #f8fafc; /* text-slate-50 */
+  
+  --primary: #38bdf8; /* sky-400 */
+  --primary-fg: #0f172a;
+  
+  --surface: #1e293b; /* Nền thẻ Card tối (slate-800) */
+  --border: #334155; /* border-slate-700 */
+  
+  --muted: #334155; /* slate-700 */
+  --muted-fg: #94a3b8; /* slate-400 */
+}
+
+/* Base styles để apply màu nền và chữ mặc định toàn cục, có transition mượt */
+@layer base {
+  html, body {
+    @apply bg-background text-foreground transition-colors duration-300 ease-in-out antialiased;
+  }
+}
+
+/* Style cho thanh cuộn (Scrollbar) cho Dashboard mượt mà hơn */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* Tìm đoạn này ở cuối file index.css */
+::-webkit-scrollbar-thumb {
+  /* Thay vì dùng @apply bg-border hover:bg-muted-fg/50 */
+  background-color: var(--border);
+  border-radius: 9999px;
+  transition: background-color 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Khai báo trực tiếp màu nền khi hover thay vì dùng /50 của class tự tạo */
+  background-color: color-mix(in srgb, var(--muted-fg) 50%, transparent);
+}
